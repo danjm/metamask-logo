@@ -292,7 +292,7 @@ module.exports = function createLogo (options_) {
     }
   })
 
-  function renderScene ()) {
+  function renderScene () {
     if (!shouldRender) return
     window.requestAnimationFrame(renderScene)
 
